@@ -1,3 +1,5 @@
+import BottomNav from "@/components/BottomNav";
+import SideNav from "@/components/Side.Nav";
 import TopNav from "@/components/TopNav";
 import VIdeoHeader from "@/components/VIdeoHeader";
 
@@ -7,6 +9,8 @@ export default function Home() {
   return (
     <main className="relative overflow-hidden bg-slate-600">
       <TopNav />
+      {/* <BottomNav /> */}
+      {/* <SideNav /> */}
       <VIdeoHeader />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam

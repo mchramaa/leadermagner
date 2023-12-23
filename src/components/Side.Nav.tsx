@@ -13,16 +13,8 @@ export default function SideNav() {
   }
 
   return (
-    <div className="absolute flex items-center w-screen bg-black h-14 ">
+    <div className="absolute flex items-center w-screen bg-black h-14 z-50">
       <div className="relative flex">
-        <div className="relative grid w-screen place-items-center">
-          <Image
-            src={magnerIcon}
-            width={150}
-            height={50}
-            alt="Magner Care Logo Png"
-          />
-        </div>
         <div className="absolute">
           <button onClick={hanldeSideMenu} className="z-50">
             <RiMenu4Fill className="w-8 h-8 text-white" />
